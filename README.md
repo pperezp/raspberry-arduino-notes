@@ -77,3 +77,6 @@ CLEAN
 CREATE PARTITION PRIMARY
 FORMAT FS=NTFS QUICK
 ASSIGN
+
+# No DNS (duckdns)
+https://www.duckdns.org/install.jsp?tab=pi 
