@@ -54,7 +54,8 @@ sudo nano /etc/mysql/my.cnf
 comentar la siguiente linea
 bind-address          = 127.0.0.1
 
-mysql -uwpuser -hlocalhost wp db -p
+## Test conexión (Terminal)
+mysql -u prez -h 192.168.0.20 -p
 
 ## Respaldar EL SO de la SD
 http://raspberrypi.stackexchange.com/questions/311/how-do-i-backup-my-raspberry-pi
